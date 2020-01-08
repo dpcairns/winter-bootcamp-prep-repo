@@ -48,7 +48,12 @@ ul {
     margin: 0 auto;
     padding: 40px;
     color: orange;
-    
+    transition: width .2s ease-in-out;
+}
+
+.square:hover {
+    width: 400px;
+    cursor: pointer;
 }
 
 #cool-square {
